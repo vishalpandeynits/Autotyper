@@ -5,7 +5,7 @@ file_name = input("Enter the exact location of file or simply name, if this scri
 f = open(file_name,'r')
 data = f.read()
 
-print(" Click on the place where you want us to type your data for you under 3 seconds.")
+print(" Click on the place where you want us to type your data under 3 seconds.")
 time.sleep(3)
 for i in data:
     pyautogui.typewrite(i)
